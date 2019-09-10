@@ -1,0 +1,12 @@
+*{
+    font-family: 'Play', sans-serif;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(182, 182, 182);
+    opacity: 100%;
+    padding: 2px;
+}
