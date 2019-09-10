@@ -2,11 +2,21 @@
     font-family: 'Play', sans-serif;
 }
 
+#page-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+#page-wrap{
+    padding-bottom: 5rem;
+}
+
 .footer{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: rgb(182, 182, 182);
     opacity: 100%;
     padding: 2px;
+    height: 5rem;
 }
