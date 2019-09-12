@@ -2,6 +2,14 @@
     font-family: 'Play', sans-serif;
 }
 
+a{
+    color: #51ADF6;
+}
+
+a:hover{
+    color: #2196f3;
+}
+
 #page-container{
     position: relative;
     min-height: 100vh;
@@ -23,10 +31,14 @@ body{
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgb(182, 182, 182);
+    background-color: #78909C;
     opacity: 100%;
     padding: 2px;
     height: 5rem;
+}
+
+.text-primary{
+    color: #51ADF6!important;
 }
 
 .nav {
