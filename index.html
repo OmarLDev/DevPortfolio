@@ -21,7 +21,7 @@
         <div id="page-wrap">
             <!-- START NAVBAR-->
             <section id="header">
-                <div class="container fixed-top">
+                <div class="container fixed-top" id="nav">
                     <nav class="navbar navbar-expand-md navbar-light" style="background-color: transparent;">
                         <a class="navbar-brand" href="index.html">Omar Luna</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -165,7 +165,7 @@
             <!-- FOOTER START -->
             <footer class="page-footer font-small 3 text-primary footer">
                 <div class="footer-copyright text-center py-1">
-                    <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/omar-luna-00a63a89/?locale=en_US"><i class="fab fa-linkedin fa-2x"></i></a>
                     <a href="https://github.com/olcortes"><i class="fab fa-github fa-2x"></i></a>
                     <a href="mailto:mrebel62@gmail.com"><i class="fas fa-envelope-open-text fa-2x"></i></a>
                 </div>
@@ -176,6 +176,17 @@
             <!-- FOOTER END -->
         </div>
     </div>
+    <script>
+        var myNav = document.getElementById("nav");
+
+        window.onscroll = function() {
+        if (document.body.scrollTop >= 60 || document.documentElement.scrollTop >= 60) {
+            myNav.classList.add("scroll");
+        } else {
+            myNav.classList.remove("scroll");
+        }
+        };
+    </script>
 </body>
 
 </html>
