@@ -7,7 +7,7 @@ a{
 }
 
 a:hover{
-    color: #2196f3;
+    color: #518EAC;
 }
 
 #page-container{
@@ -49,5 +49,5 @@ body{
     /* transition: background-color 2s; */
 }
 .scroll {
-    background-color: #e3f2fd;
+    background-color: #B3D6E8;
 }
