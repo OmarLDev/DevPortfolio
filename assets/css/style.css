@@ -51,3 +51,14 @@ body{
     background: transparent;
     transition: 1s;
 }
+
+.btn-outline-primary{
+    border: solid 1px #B3D6E8;
+    color: #000;
+}
+
+.btn:hover{
+    background-color: #6DBFE8!important;
+    border: none;
+    color: #fff!important;
+}
